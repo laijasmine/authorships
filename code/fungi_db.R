@@ -35,5 +35,6 @@ collect <- db %>%
   summarise(n()) %>% 
   unique()
 
-write_csv(unique_pcgs_list, "pcgs.csv")
-write_csv(gsa,"gsa.csv")
+#save the files
+write_csv(unique_pcgs_list, "results/fungi_pcgs.csv")
+write_csv(gsa,"results/fungi_gsa.csv")

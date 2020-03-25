@@ -42,7 +42,7 @@ map2(f, file_nm, ~write_csv(.x,paste0("results/",.y), na = ""))
 #Acrosiphonia	coalita	(Ruprecht) Scagel, Garba
 #Helping Sandra weed out most of the duplicates in the list and focus on the truly issue species
 
-
+#------------
 
 #trying to check if this is possible by pulling names from itis
 itis_nm <- itis_terms(gsa$`taxon name for relation`[1:50])
